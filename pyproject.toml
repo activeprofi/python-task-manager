@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "task-manager"
+version = "0.1.0"
+description = ""
+authors = ["Active Profi"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
